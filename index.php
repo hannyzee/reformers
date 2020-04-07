@@ -18,13 +18,79 @@
    <?php include ("main/header.php");?>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1>Welcome Reformer We Love You!!!</h1>
-      <h2>We are commited to bringing men and women to his fullnes</h2>
+   <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+               <h2>Welcome To The Reformation Kingdom Communiy</h2>
+               <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>The Reformation Kingdom Communiy</h2>
+                <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+             <h2>The Reformation Kingdom Communiy</h2>
+             <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+               <h2>The Reformation Business School</h2>
+               <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Reformation Kingdom Commuinty</h2>
+                <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin..</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </section><!-- #intro -->
 
   <main id="main">
 
@@ -33,14 +99,18 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-xl-6 col-lg-6  d-flex justify-content-center align-items-stretch" data-aos="fade-up">
-             <div class="about-img">
-                <img src="assets/img/snr.jpg" class="img-fluid" alt="">
+          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+          	 <div class="about-img">
+              <div class="pic"><img src="assets/img/snr.jpg" alt=""></div>
+              <h4>Ayuba Adams Mshellia</h4>
+              <span>Snr Minister</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
               </div>
-              <div class="about-info">
-                <h4>Ayuba Adams Mshellia</h4>
-                <span>Snr Minster</span>
-              </div>
+            </div>
           </div>
 
           <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
@@ -50,29 +120,11 @@
               <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
             </div>
 
-            <div class="icon-box" data-aos="fade-up">
-              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              <h4 class="title"><a href="">Our Mission</a></h4>
-              <p class="description">Bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-            	 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
-              <h4 class="title"><a href="">Our Vision</a></h4>
-              <p class="description">Raise a people of love,grace and power till we all come to the unity of the faith and the knowledge of the son of God to a perfect man, to measure of the stature of the fullness of christ: and to the full knowledge of the will and purpose of God four lives on Earth</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-               <div class="icon"><i class="ion-ios-list-outline"></i></div>
-              <h4 class="title"><a href="">Our Values</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
-          </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
+    
 
     <section id="testimonials" class="testimonials">
       <div class="container">

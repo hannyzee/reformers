@@ -27,11 +27,6 @@
               </div>
 
               <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-              <div class="phone">
                 <i class="ion-ios-stopwatch-outline"></i>
                 <h4>Service</h4>
                 <p>Tuesdays, 5pm</p>
