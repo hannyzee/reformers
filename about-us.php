@@ -227,9 +227,6 @@
 
       </div>
     </section><!-- End Team Section -->
-    <section id="contact" class="contact">
-     <?php include("main/contact.php");?>
-    </section><!-- End Contact Section -->
   </main>
    <!-- ======= Footer ======= -->
   <footer id="footer">
