@@ -5,7 +5,7 @@
         <div class="row  justify-content-center">
           <div class="col-lg-6">
             <h3>Refromation Kingdom Commuinty</h3>
-            <p>We are commited to bringing men and women to his fullness.</p>
+            <p>Transforming Men to his Fullness.</p>
           </div>
         </div>
 

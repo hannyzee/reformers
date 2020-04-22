@@ -5,22 +5,11 @@
 	<?php include("main/head.php");?>
 </head>
 <body>
-	 <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <?php include ("main/top-header.php");?>
-  </section>
 
   <!-- ======= Header ======= -->
-  <header id="header">
+  <header id="header" class="fixed-top d-flex align-items-center">
    <?php include ("main/header.php");?>
   </header><!-- End Header -->
-    <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1>Welcome Reformer We Love You!!!</h1>
-      <h2>We are commited to bringing men and women to his fullnes</h2>
-    </div>
-  </section><!-- End Hero -->
 
   <main id="main">
   	 <!--==========================

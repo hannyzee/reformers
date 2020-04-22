@@ -8,9 +8,10 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="about-us.php">About Us</a></li>
-          <li><a href="giving.php">Giving</a></li>
+          <li><a href="giving.php">Donations</a></li>
+          <li><a href="#">Announcment</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->

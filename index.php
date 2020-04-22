@@ -7,190 +7,136 @@
 </head>
 
 <body>
-
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <?php include ("main/top-header.php");?>
-  </section>
-
   <!-- ======= Header ======= -->
-  <header id="header">
+  <header  id="header" class="fixed-top d-flex align-items-center ">
    <?php include ("main/header.php");?>
   </header><!-- End Header -->
 
-   <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+  <!-- ======= Hero Section ======= -->
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-               <h2>Welcome To The Reformation Kingdom Communiy</h2>
-               <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>The Reformation Kingdom Communiy</h2>
-                <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-             <h2>The Reformation Kingdom Communiy</h2>
-             <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-               <h2>The Reformation Business School</h2>
-               <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Reformation Kingdom Commuinty</h2>
-                <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin..</p>
-              </div>
-            </div>
-          </div>
-
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+      	<img src="assets/img/intro-carouse/1.jpg" alt="">
+          <h2 class="animated fadeInDown">Welcome to <span>The Reformation Kingdom Community</span></h2>
+          <p class="animated fadeInUp">The refromation Kingdom community is a faith based organization,perfecting human, social and city wide tranformation.We adavance the kingdom of God through righteous and holy lifestyle,strong marraiages and families and rich community life,all built on the pattern of the kingdom </p>
         </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
       </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Our Ministerial Team</h2>
+          <p class="animated fadeInUp">Our Ministerial team focuses on equipping students with moral priniciples and tools for navigating life. We are many people but one community,many culture but one people, we are many tribes but one big family in christ, </p>
+          <a href="about.php" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Our Ministers</h2>
+          <p class="animated fadeInUp">Our Ministerial build and noture young men and women on values that represent our faith in our lord and savoir Jesus christ.</p>
+          <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
     </div>
-  </section><!-- #intro -->
+ <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+  </section><!-- End Hero -->
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
-          	 <div class="about-img">
-              <div class="pic"><img src="assets/img/snr.jpg" alt=""></div>
-              <h4>Ayuba Adams Mshellia</h4>
-              <span>Snr Minister</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
+        <div class="about-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who we are</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              The reformation kingdom community is a faith based organization, perfecting human, social and city wide transformaation our vision pillars are.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> We are impact makers</li>
+              <li><i class="ri-check-double-line"></i> We promote ethical business practices and value based leadership</li>
+              <li><i class="ri-check-double-line"></i> We equip men and women to take over thr seven mountains</li>
+            </ul>
           </div>
-
-          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <div class="box-heading" data-aos="fade-up">
-              <h4>About us</h4>
-              <h3>The Reformation Kingdom community</h3>
-              <p>We are a non denominational community , we are commited to bringing men to his fullness and to the full knowledge of the will and purpose of God on earth through worship and teaching the truth of God's word without compromise to the truth and power therin.</p>
-            </div>
-
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              The refromation Kingdom community is a faith based organization,perfecting human, social and city wide tranformation.We adavance the kingdom of God through righteous and holy lifestyle,strong marraiages and families and rich community life,all built on the pattern of the kingdom.
+            </p>
+            <a href="about-us.php" class="btn-learn-more">Learn More</a>
+          </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
     
 
-    <section id="testimonials" class="testimonials">
+ <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
       <div class="container">
+        <div class="row">
 
-        <div class="owl-carousel testimonials-carousel" data-aos="zoom-in">
-
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+          <div class="col-lg-3 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">kingdom</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
 
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+          <div class="col-lg-3 box box-bg">
+            <i class="ion-ios-people-outline"></i>
+            <h4 class="title">Community</h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
 
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+          <div class="col-lg-3 box">
+            <i class="ion-ios-book-outline"></i>
+            <h4 class="title">Word</h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+		  <div class="col-lg-3 box box-bg">
+            <i class="ion-ios-hand-outline"></i>
+            <h4 class="title">Worship</h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
         </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
-
+    </section><!-- #featured-services -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -207,6 +153,7 @@
 
   <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
+  <!-- Vendor JS Files -->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

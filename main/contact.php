@@ -7,7 +7,7 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.ng/maps/dir//Hajiya+Amina+Inuwa+Hall,+Gombe/@10.2833771,11.1480284,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x10ffda8f7cd467b9:0xae2acba13f4848d2!2m2!1d11.1502171!2d10.2833718" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div class="row mt-5">
