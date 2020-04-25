@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: #0f0f0f;
 }
 
 #header.header-transparent {
@@ -410,18 +410,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
-# Her0
---------------------------------------------------------------*/
+# Hero Section
+----------------------------------------------------------------*/
 #hero {
   width: 100%;
-  overflow: hidden;
+  height: 60vh;
+  background: url("../img/prnt4.png") top center;
+  background-size: cover;
   position: relative;
-  background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+  overflow: hidden;
   padding: 0;
 }
 
-#hero .carousel-container {
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,33 +445,21 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 60px;
 }
 
-#hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
+#hero h1 {
+  margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 }
 
-#hero p {
+#hero h2 {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
 }
-
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
-
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -483,23 +484,28 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+
 @media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
-  #hero .carousel-control-prev, #hero .carousel-control-next {
-    width: 5%;
+  #hero {
+    background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero .carousel-container {
-    height: 90vh;
+  #hero {
+    height: 100vh;
   }
-  #hero h2 {
+  #hero h1 {
     font-size: 28px;
+    line-height: 36px;
+  }
+  #hero p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 }
+
 
 .hero-waves {
   display: block;
@@ -582,6 +588,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(85px, 0%);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General

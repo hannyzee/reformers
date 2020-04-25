@@ -16,47 +16,12 @@
   
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-      	<img src="assets/img/intro-carouse/1.jpg" alt="">
-          <h2 class="animated fadeInDown">Welcome to <span>The Reformation Kingdom Community</span></h2>
-          <p class="animated fadeInUp">The refromation Kingdom community is a faith based organization,perfecting human, social and city wide tranformation.We adavance the kingdom of God through righteous and holy lifestyle,strong marraiages and families and rich community life,all built on the pattern of the kingdom </p>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animated fadeInDown">Our Ministerial Team</h2>
-          <p class="animated fadeInUp">Our Ministerial team focuses on equipping students with moral priniciples and tools for navigating life. We are many people but one community,many culture but one people, we are many tribes but one big family in christ, </p>
-          <a href="about.php" class="btn-get-started animated fadeInUp scrollto">Read More</a>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animated fadeInDown">Our Ministers</h2>
-          <p class="animated fadeInUp">Our Ministerial build and noture young men and women on values that represent our faith in our lord and savoir Jesus christ.</p>
-          <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
+    <div class="hero-container" data-aos="fade-up">
+      <h1 class="animated fadeInDown">The Reformation Kingdom Community</h1>
+      <h2 class="animated fadeInup">Transforming Men to his Fullness</h2>
+      <a href="about-us.php" class="btn-get-started scrollto">Get Started</a>
     </div>
- <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
         <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
       </defs>
@@ -71,7 +36,6 @@
       </g>
     </svg>
   </section><!-- End Hero -->
-
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -113,26 +77,26 @@
         <div class="row">
 
           <div class="col-lg-3 box">
-            <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">kingdom</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <i class="ion-ios-world-outline"></i>
+            <h4 class="title">kingdom</h4>
+            <p class="description">We advance the kingdom of God through righteous and holy lifestyle, strong marriages and families and rich community life.</p>
           </div>
 
           <div class="col-lg-3 box box-bg">
             <i class="ion-ios-people-outline"></i>
             <h4 class="title">Community</h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">We are many people but one community, many cultures but one people, we are many tribes but one big family in christ</p>
           </div>
 
           <div class="col-lg-3 box">
             <i class="ion-ios-book-outline"></i>
             <h4 class="title">Word</h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p class="description">We focus on equiping men and women with moral principles and tools for navigating life through the word</p>
           </div>
 		  <div class="col-lg-3 box box-bg">
             <i class="ion-ios-hand-outline"></i>
             <h4 class="title">Worship</h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">We are commited to true worship worshiping God in truth and in spirit</p>
           </div>
         </div>
       </div>

@@ -10,9 +10,9 @@
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="about-us.php">About Us</a></li>
-          <li><a href="giving.php">Donations</a></li>
+          <li><a href="team.php">Ministers</a></li>
           <li><a href="#">Announcment</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
